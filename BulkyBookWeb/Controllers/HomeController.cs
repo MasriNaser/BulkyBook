@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿//Handels he user req and acts an interface between Model and View.
+
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BulkyBookWeb.Models;
 
@@ -19,6 +21,10 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+    public IActionResult Test()
     {
         return View();
     }

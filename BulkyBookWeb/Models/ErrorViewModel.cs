@@ -1,4 +1,6 @@
-﻿namespace BulkyBookWeb.Models;
+﻿//Represents the shape of the data.
+
+namespace BulkyBookWeb.Models;
 
 public class ErrorViewModel
 {

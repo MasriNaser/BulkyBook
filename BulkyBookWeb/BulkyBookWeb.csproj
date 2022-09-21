@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Home\EmptyClass.cshtml" />
+    <Content Remove="Views\Home\Products.cshtml" />
+  </ItemGroup>
 </Project>
