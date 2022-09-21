@@ -1,0 +1,28 @@
+﻿html {
+    font-size: 16px;
+    font-family: cursive;
+}
+.conttainer {
+    display:flex;
+}
+.welcome {
+    text-align:center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 668px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
