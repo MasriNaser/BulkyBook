@@ -10,4 +10,14 @@
     <Content Remove="Views\Home\EmptyClass.cshtml" />
     <Content Remove="Views\Home\Products.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0-rc.1.22426.7" />
+  </ItemGroup>
 </Project>
